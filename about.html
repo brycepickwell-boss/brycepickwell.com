@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>About — Bryce Pickwell</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTAiIGZpbGw9IiMyZTg2ZGUiLz48L3N2Zz4K">
 <style>
   body{
     margin:0;
@@ -31,6 +32,18 @@
     color:#111;
     text-decoration:none;
     font-size:1.1rem;
+    display:inline-flex;
+    align-items:center;
+    gap:0.5rem;
+  }
+  .site-nav .home::before{
+    content:"";
+    display:inline-block;
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    background:#2e86de;
+    flex:none;
   }
   .site-nav nav ul{
     list-style:none;
@@ -60,6 +73,7 @@
     margin:0 0 1.2rem;
   }
   main p{ max-width:56ch; }
+  main p.wide{ max-width:none; }
 </style>
 </head>
 <body>
@@ -77,7 +91,9 @@
 
 <main>
   <h1>About</h1>
-  <p>Grew up in San Diego, studied supply chain management at TCU with an environmental science minor on the side, ran an outdoor program for a few years, then somehow ended up in marketing. A couple of jobs later, that turned into writing infrastructure proposals — bridges, transit, roads — which is closer to the environmental science part than anything I did right after graduating.</p><p>Travel's the other constant. Japan a few times over, a semester in the Netherlands, and a bike trip through Taiwan's East Rift Valley coming up in October 2026.</p><p>(This is placeholder copy — swap in your own voice whenever you're ready.)</p>
+  <p>Born and raised in San Diego, California.</p>
+  <p>College in Texas.</p>
+  <p class="wide">Currently, Proposal Coordinator for a civil engineering firm in Downtown Los Angeles.</p>
 </main>
 
 </body>
